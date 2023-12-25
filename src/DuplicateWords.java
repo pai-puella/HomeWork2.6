@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class DuplicateWords {
     public static void main(String[] args) {
-        List<String> words = new ArrayList<>(List.of("one", "two", "two", "three", "three", "three"));
+        List<String> words = new ArrayList<>(List.of("один", "два", "два", "три", "три", "три"));
         Map<String, Integer> wordCount = new HashMap<>(); // используем Map для подсчета количества дублей
 
         for (String word : words) {
